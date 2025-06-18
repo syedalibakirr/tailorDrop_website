@@ -1,0 +1,256 @@
+[
+  {
+    "model": "alterations.clothingtype",
+    "pk": 1,
+    "fields": {
+      "name": "Pants/Jeans",
+      "description": "All types of pants including jeans, dress pants, chinos, etc."
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 2,
+    "fields": {
+      "name": "Shirt/Blouse",
+      "description": "Shirts, blouses, and tops"
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 3,
+    "fields": {
+      "name": "Dress",
+      "description": "All types of dresses"
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 4,
+    "fields": {
+      "name": "Suit Jacket",
+      "description": "Suit jackets and blazers"
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 5,
+    "fields": {
+      "name": "Skirt",
+      "description": "All types of skirts"
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 6,
+    "fields": {
+      "name": "Shorts",
+      "description": "All types of shorts"
+    }
+  },
+  {
+    "model": "alterations.clothingtype",
+    "pk": 7,
+    "fields": {
+      "name": "Other",
+      "description": "Other clothing items not listed above"
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 1,
+    "fields": {
+      "name": "Hem",
+      "clothing_type": 1,
+      "base_price": "15.00",
+      "description": "Basic hemming without cuff",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 2,
+    "fields": {
+      "name": "Hem (with cuff)",
+      "clothing_type": 1,
+      "base_price": "18.00",
+      "description": "Hemming with original cuff",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 3,
+    "fields": {
+      "name": "Waist Adjustment",
+      "clothing_type": 1,
+      "base_price": "25.00",
+      "description": "Take in or let out waist up to 2 inches",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 4,
+    "fields": {
+      "name": "Taper Legs",
+      "clothing_type": 1,
+      "base_price": "22.00",
+      "description": "Narrow leg opening for better fit",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 5,
+    "fields": {
+      "name": "Zipper Repair",
+      "clothing_type": 1,
+      "base_price": "28.00",
+      "description": "Replace broken or damaged zipper",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 6,
+    "fields": {
+      "name": "Shorten Sleeves",
+      "clothing_type": 2,
+      "base_price": "18.00",
+      "description": "Hem shirt sleeves to proper length",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 7,
+    "fields": {
+      "name": "Take in Sides",
+      "clothing_type": 2,
+      "base_price": "22.00",
+      "description": "Tailor shirt sides for better fit",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 8,
+    "fields": {
+      "name": "Shorten Length",
+      "clothing_type": 2,
+      "base_price": "16.00",
+      "description": "Adjust shirt length",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 9,
+    "fields": {
+      "name": "Hem",
+      "clothing_type": 3,
+      "base_price": "20.00",
+      "description": "Adjust dress length",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 10,
+    "fields": {
+      "name": "Take in/Let out",
+      "clothing_type": 3,
+      "base_price": "28.00",
+      "description": "Adjust dress width",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 11,
+    "fields": {
+      "name": "Adjust Straps",
+      "clothing_type": 3,
+      "base_price": "15.00",
+      "description": "Shorten or lengthen straps",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 12,
+    "fields": {
+      "name": "Sleeve Shortening",
+      "clothing_type": 4,
+      "base_price": "25.00",
+      "description": "Adjust jacket sleeve length",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 13,
+    "fields": {
+      "name": "Body Adjustment",
+      "clothing_type": 4,
+      "base_price": "40.00",
+      "description": "Take in jacket body",
+      "estimated_time_hours": 72
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 14,
+    "fields": {
+      "name": "Hem",
+      "clothing_type": 5,
+      "base_price": "18.00",
+      "description": "Adjust skirt length",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 15,
+    "fields": {
+      "name": "Waist Adjustment",
+      "clothing_type": 5,
+      "base_price": "25.00",
+      "description": "Adjust skirt waist",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 16,
+    "fields": {
+      "name": "Hem",
+      "clothing_type": 6,
+      "base_price": "15.00",
+      "description": "Adjust shorts length",
+      "estimated_time_hours": 24
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 17,
+    "fields": {
+      "name": "Waist Adjustment",
+      "clothing_type": 6,
+      "base_price": "22.00",
+      "description": "Adjust shorts waist",
+      "estimated_time_hours": 48
+    }
+  },
+  {
+    "model": "alterations.alterationtype",
+    "pk": 18,
+    "fields": {
+      "name": "Custom Alteration",
+      "clothing_type": 7,
+      "base_price": "25.00",
+      "description": "Custom alteration - describe in instructions",
+      "estimated_time_hours": 48
+    }
+  }
+]
