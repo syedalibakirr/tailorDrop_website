@@ -23,9 +23,7 @@ import Contact from './pages/Contact';
 function App() {
   useEffect(() => {
     if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('config', 'G-DMQKLN1DFC', {
-        anonymize_ip: true,
-      });
+      window.gtag('config', 'G-DMQKLN1DFC');
     }
   }, []);
 
