@@ -1,4 +1,10 @@
-import React from 'react';
+import { useEffect } from 'react';
+
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header';
@@ -15,6 +21,14 @@ import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 
 function App() {
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('config', 'G-DMQKLN1DFC', {
+        anonymize_ip: true,
+      });
+    }
+  }, []);
+
   return (
     <AuthProvider>
       <Router>
